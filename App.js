@@ -196,6 +196,7 @@ const App = () => {
 
     const joinCall = async () => {
         await startWebcam()
+        
         connecting.current = true
         setGettingCall(false)
 
